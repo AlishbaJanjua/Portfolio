@@ -7,7 +7,7 @@ const education = [
     degree: "Bachelor's Degree",
     field: "Business Data Analytics",
     org: "Comsats University, Islamabad",
-    duration: "2022 — 2026",
+    duration: "2024 — Present",
   },
 ];
 
