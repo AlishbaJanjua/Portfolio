@@ -2,13 +2,23 @@ import { Briefcase } from "lucide-react";
 import { Section, SectionHeading } from "./Section";
 import { Reveal } from "./Reveal";
 
-// Placeholder timeline — real experience entries can be added here.
 const experience: {
   role: string;
   company: string;
   duration: string;
   responsibilities: string[];
-}[] = [];
+}[] = [
+  {
+    role: "AI Automation Intern",
+    company: "Matrix AE",
+    duration: "June 2026 — Present",
+    responsibilities: [
+      "Design and implement AI-powered automation workflows for business processes.",
+      "Build and maintain intelligent assistants and integration pipelines.",
+      "Support data-driven automation initiatives across client projects.",
+    ],
+  },
+];
 
 export function Experience() {
   return (
