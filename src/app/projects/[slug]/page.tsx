@@ -133,20 +133,6 @@ export default async function ProjectPage({
           </div>
         </Block>
 
-        {/* Screenshots */}
-        <Block title="Screenshots">
-          <div className="grid gap-4 sm:grid-cols-2">
-            {[0, 1].map((n) => (
-              <div
-                key={n}
-                className="flex aspect-video items-center justify-center rounded-2xl border border-dashed border-white/10 bg-surface text-xs uppercase tracking-widest text-muted"
-              >
-                Screenshot coming soon
-              </div>
-            ))}
-          </div>
-        </Block>
-
         {/* CTA */}
         <div className="mt-14 flex flex-col items-center gap-4 rounded-3xl border border-white/10 bg-surface p-10 text-center">
           <h3 className="font-display text-2xl font-semibold text-white">
